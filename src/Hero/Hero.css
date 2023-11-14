@@ -1,0 +1,56 @@
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -60px;
+    
+}
+
+.hero__img-block, 
+.hero__text-block {
+    margin: 0 60px;
+}
+.hero__img-block {
+    position: relative;
+    margin-top: 26px;
+}
+.hero__img-block::before {
+    position: absolute;
+    content: url(../lines.svg);
+    top: -26px;
+    left: -26px;
+}
+.hero__text-block {
+    margin: 300px 0 153px;
+}
+.hero__title {
+    font-size: var(--title-text);
+    line-height: 1.25;
+    letter-spacing: 3.2px;
+}
+
+.hero__subtitle {
+    font-weight: 700;
+    font-size: var(--subtitle-text);
+    line-height: 1.1;
+    letter-spacing: 3.2px;
+    margin-bottom: 90px;
+}
+
+.hero__subtitle span {
+    font-size: 3.4rem;
+    line-height: 1.2;
+    letter-spacing: 3.2px;
+}
+
+.hero__subtitle span::before {
+    position: absolute;
+    content: url(../line.svg);
+    
+}
+
+.hero__players p {
+    font-size: var(--small-text);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

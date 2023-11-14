@@ -1,0 +1,24 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+.nav {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.menu_item a {
+    font-size: var(--small-text);
+    line-height: 1.6;
+    margin: 0 15px;
+}

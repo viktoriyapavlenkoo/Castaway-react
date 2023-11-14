@@ -1,0 +1,53 @@
+/* root */
+html {
+    font-size: 22px;
+}
+
+:root {
+    /* color */
+    /* --main-backround-color: #191919; */
+    --main-backround-color: #535353;
+    --main-color-text: #FFFFFF;
+
+    /* font-size */ 
+    --main-text: 1rem;
+    --title-text: 3.2rem;
+    --subtitle-text: 3.5rem;
+    --section-tetle: 3rem;
+    --small-text: 0.75rem;
+
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: var(--main-text);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* main css */
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--main-backround-color);
+    color: var(--main-color-text);
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
