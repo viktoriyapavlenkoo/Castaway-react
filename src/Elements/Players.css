@@ -1,0 +1,7 @@
+.players__list {
+    display: flex;
+    margin: 0 -8px;
+}
+.players__list li {
+    margin: 0 8px;
+}
