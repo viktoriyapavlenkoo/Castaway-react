@@ -4,20 +4,95 @@
         "id": 1,
         "title": "Should you get outboard audio gear?",
         "text": "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.",
-        "image": "../resources/images/episodes/episode-img-1.png"
+        "image": "../resources/images/episodes/episode-img-1.png",
+        "alt": "image 1"
     },
     {
         "category": "Tips & Tricks",
         "id": 2,
         "title": "Mic tricks to take you to the next level",
         "text": "Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.",
-        "image": "../resources/images/episodes/episode-img-2.png"
+        "image": "../resources/images/episodes/episode-img-2.png",
+        "alt": "image 2"
     },
     {
         "category": "Gear",
         "id": 3,
         "title": "The best microphone under $200",
         "text": "With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.",
-        "image": "../resources/images/episodes/episode-img-3.png"
+        "image": "../resources/images/episodes/episode-img-3.png",
+        "alt": "image 3"
+    },
+    {
+        "category": "Gear",
+        "id": 4,
+        "title": "Should you get outboard audio gear?",
+        "text": "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.",
+        "image": "../resources/images/episodes/episode-img-1.png",
+        "alt": "image 4"
+    },
+    {
+        "category": "Tips & Tricks",
+        "id": 5,
+        "title": "Mic tricks to take you to the next level",
+        "text": "Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.",
+        "image": "../resources/images/episodes/episode-img-2.png",
+        "alt": "image 5"
+    },
+    {
+        "category": "Gear",
+        "id": 6,
+        "title": "The best microphone under $200",
+        "text": "With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.",
+        "image": "../resources/images/episodes/episode-img-3.png",
+        "alt": "image 6"
+    },
+    {
+        "category": "Gear",
+        "id": 7,
+        "title": "Should you get outboard audio gear?",
+        "text": "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.",
+        "image": "../resources/images/episodes/episode-img-1.png",
+        "alt": "image 7"
+    },
+    {
+        "category": "Tips & Tricks",
+        "id": 8,
+        "title": "Mic tricks to take you to the next level",
+        "text": "Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.",
+        "image": "../resources/images/episodes/episode-img-2.png",
+        "alt": "image 8"
+    },
+    {
+        "category": "Gear",
+        "id": 9,
+        "title": "The best microphone under $200",
+        "text": "With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.",
+        "image": "../resources/images/episodes/episode-img-3.png",
+        "alt": "image 9"
+    },
+    {
+        "category": "Gear",
+        "id": 10,
+        "title": "Should you get outboard audio gear?",
+        "text": "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.",
+        "image": "../resources/images/episodes/episode-img-1.png",
+        "alt": "image 10"
+    },
+    {
+        "category": "Tips & Tricks",
+        "id": 11,
+        "title": "Mic tricks to take you to the next level",
+        "text": "Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.",
+        "image": "../resources/images/episodes/episode-img-2.png",
+        "alt": "image 11"
+    },
+    {
+        "category": "Gear",
+        "id": 12,
+        "title": "The best microphone under $200",
+        "text": "With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.",
+        "image": "../resources/images/episodes/episode-img-3.png",
+        "alt": "image 12"
     }
 ]
