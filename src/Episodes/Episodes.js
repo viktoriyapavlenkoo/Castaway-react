@@ -1,5 +1,6 @@
 import episodesData from '../json/episodes.json'
 import Episode from './Episode';
+import './Episodes.css'
 
 function Episodes() {
     const lengthEpisodes = episodesData.length;
@@ -15,7 +16,7 @@ function Episodes() {
                     <button className='btn episodes__btn'>View all episodes</button>
                 </div>
                 <ul className="episodes__list">
-                    {lastEpisodes.map((item, index) => <li key={index}><Episode data={item} /></li>)}
+                    {lastEpisodes.map((item, index) => <li className="episodes__item" key={index}><Episode data={item} /></li>)}
                 </ul>
             </div>
             

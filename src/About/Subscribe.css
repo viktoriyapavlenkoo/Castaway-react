@@ -1,0 +1,8 @@
+.subscribe__container {
+    background-color: var(--dark-color);
+    margin-bottom: 160px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+}

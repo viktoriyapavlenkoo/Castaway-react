@@ -19,6 +19,5 @@
 
 .menu_item a {
     font-size: var(--small-text);
-    line-height: 1.6;
     margin: 0 15px;
 }

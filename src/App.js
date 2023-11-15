@@ -1,3 +1,4 @@
+import About from './About/About';
 import './App.css'
 import Episodes from './Episodes/Episodes';
 import Header from './Header/Header';
@@ -9,6 +10,7 @@ function App() {
             <Header/>
             <Hero />
             <Episodes/>
+            <About/>
         </div>
     )
 }

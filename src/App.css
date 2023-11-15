@@ -5,16 +5,18 @@ html {
 
 :root {
     /* color */
-    /* --main-backround-color: #191919; */
-    --main-backround-color: #535353;
+    --main-background-color: #191919;
+    /* --main-backround-color: #535353; */
     --main-color-text: #FFFFFF;
+    --dark-color: #000000;
+    --accent-color: #118DA8;
 
     /* font-size */ 
     --main-text: 1rem;
     --title-text: 3.2rem;
     --subtitle-text: 3.5rem;
-    --section-tetle: 3rem;
-    --small-text: 0.75rem;
+    --section-title-text: 2.9rem;
+    --small-text: 0.8rem;
 
 }
 
@@ -25,6 +27,7 @@ html {
     box-sizing: border-box;
     font-weight: 400;
     font-size: var(--main-text);
+    line-height: 1.5;
 }
 
 a {
@@ -36,11 +39,17 @@ li {
     list-style: none;
 }
 
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 
 /* main css */
 body {
     font-family: 'DM Sans', sans-serif;
-    background: var(--main-backround-color);
+    background: var(--main-background-color);
     color: var(--main-color-text);
 }
 
@@ -51,3 +60,22 @@ body {
     padding: 0 50px;
 }
 
+.btn {
+    font-size: var(--small-text);
+    line-height: 1.58;
+    color: var(--main-color-text);
+    background-color: var(--accent-color);
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 6px;
+}
+
+.section__title {
+    font-size: var(--section-title-text);
+    letter-spacing: 2.88px;
+}
+
+.subtitle {
+    font-size: var(--small-text);
+    color: var(--accent-color);
+}
