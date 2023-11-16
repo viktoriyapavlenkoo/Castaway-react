@@ -5,19 +5,18 @@
     align-items: center;
 }
 
-.nav {
+.header__container .nav{
     max-width: 400px;
     width: 100%;
     margin-left: 50px;
 }
 
-.menu {
+.header__container .nav .menu {
     display: flex;
     justify-content: space-between;
     margin: 0 -15px;
 }
 
-.menu_item a {
-    font-size: var(--small-text);
+.header__container .nav .menu .menu__item a {
     margin: 0 15px;
 }

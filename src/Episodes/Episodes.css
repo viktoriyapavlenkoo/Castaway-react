@@ -1,11 +1,7 @@
-
-.episodes {
-    padding: 93px 0 160px;
-}
-
 .episodes__container {
     width: 100%;
 }
+
 .episodes__header {
     display: flex;
     justify-content: space-between;
@@ -13,13 +9,13 @@
     margin-bottom: 60px;
 }
 
-
 .episodes__list {
     display: flex;
     flex-direction: column;
     margin: -30px 0;
 
 }
+
 .episodes__item {
     display: flex;
     background-color: var(--dark-color);

@@ -1,0 +1,33 @@
+.footer__container {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.footer__container div {
+    margin: 0 10px;
+}
+
+.footer__first-block,
+.footer__fourth-block {
+    flex: 0 0 30%;
+}
+
+.footer__second-block,
+.footer__third-block {
+    flex: 0 0 20%;
+}
+
+.socials__list {
+    display: flex;
+    margin: 20px -5px;
+}
+
+.socials__item {
+    margin: 0 5px;
+}
+
+.footer__container .nav .menu .menu__item,
+.add-menu__item {
+    margin-bottom: 10px;
+}
+

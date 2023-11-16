@@ -8,12 +8,12 @@ function Subscribe() {
                     <p className="subtitle subscribe__subtitle">Email Newsletter</p>
                     <h2 className="subscribe__title">Subscribe for updates</h2>
                 </div> 
-               <form action="" method="post">
+               <form action="" method="post" className="subscribe__form">
                     <div>
-                        <input type="text" name="name" id="" placeholder="Name"/>
+                        <input type="text" name="name" id="" placeholder="Name" className="form__input input__name"/>
                     </div>
                     <div>
-                        <input type="email" name="email" id="" placeholder="Email"/>
+                        <input type="email" name="email" id="" placeholder="Email" className="form__input input__email"/>
                     </div>
                     <button type="submit" className="btn subscribe__btn">Submit</button>
                </form>

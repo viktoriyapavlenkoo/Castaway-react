@@ -1,0 +1,9 @@
+.comment__text {
+    font-size: var(--middle-text);
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.comment__name {
+    opacity: 0.7;
+}

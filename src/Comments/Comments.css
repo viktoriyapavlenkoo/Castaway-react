@@ -1,0 +1,12 @@
+.comments__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: -8px;
+}
+
+.comments__item {
+    background-color: var(--dark-color);
+    padding: 50px;
+    border-radius: 32px;
+    margin: 8px;
+}
