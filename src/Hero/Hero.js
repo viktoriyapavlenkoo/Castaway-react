@@ -9,8 +9,8 @@ function Hero() {
                     <img src="../resources/images/hero-img.png" alt="Hero" />
                </div>
                <div className="hero__text-block">
-                    <h1 className="title hero__title">Take your podcast to the</h1>
-                    <h2 className="title hero__subtitle"><span>next </span> level</h2>
+                    <h1 className="title hero__title">Take your podcast to the next level</h1>
+                    
                     <div className='hero__players'>
                         <p>Listen on</p>
                         <Players/>

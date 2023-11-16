@@ -42,27 +42,24 @@
 .hero__title {
     font-size: var(--title-text);
     letter-spacing: 3.2px;
+    margin-bottom: 70px;
 }
 
-.hero__subtitle {
-    font-weight: 700;
-    font-size: var(--subtitle-text);
-    letter-spacing: 3.2px;
-    margin-bottom: 90px;
-}
 
-.hero__subtitle span {
-    font-size: 3.4rem;
-    letter-spacing: 3.2px;
-}
 
-.hero__subtitle span::before {
-    position: absolute;
-    content: url(../line.svg);
-    
-}
+
+
 
 .hero__players p {
     font-size: var(--small-text);
     margin-bottom: 15px;
+}
+
+
+/* media */
+
+@media screen and (max-width: 992px) {
+    .hero__title {
+        font-size: var(--section-title-text);
+    }
 }

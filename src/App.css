@@ -39,11 +39,11 @@ html {
 
     /* font-size */ 
     --main-text: 1rem;
-    --title-text: 3.2rem;
-    --subtitle-text: 3.5rem;
-    --section-title-text: 2.9rem;
+    --title-text: 3rem;
+    --subtitle-text: 2.5rem;
+    --section-title-text: 2rem;
     --small-text: 0.8rem;
-    --middle-text: 1.6rem;
+    --middle-text: 1.2rem;
 
 }
 
