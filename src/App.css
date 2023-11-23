@@ -39,10 +39,10 @@ html {
 
     /* font-size */ 
     --main-text: 1rem;
-    --title-text: 3rem;
+    --title-text: 2.8rem;
     --subtitle-text: 2.5rem;
     --section-title-text: 2rem;
-    --small-text: 0.8rem;
+    --small-text: 0.9rem;
     --middle-text: 1.2rem;
 
 }
@@ -58,7 +58,7 @@ body {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 .episodes,
@@ -66,6 +66,14 @@ body {
 .comments,
 .footer {
     padding: 80px 0;
+}
+
+.artist {
+    padding-bottom: 80px;
+}
+
+.subscribe {
+    padding-top: 80px;
 }
 
 .menu__item a,
@@ -78,12 +86,13 @@ body {
     line-height: 1.58;
     color: var(--main-color-text);
     background-color: var(--accent-color);
-    height: 50px;
-    padding: 0 20px;
+    /* height: 50px; */
+    padding: 15px 20px;
     border-radius: 6px;
 }
 
-.section__title {
+.section__title,
+.subscribe__title  {
     font-size: var(--section-title-text);
     letter-spacing: 2.88px;
 }
@@ -91,4 +100,60 @@ body {
 .subtitle {
     font-size: var(--small-text);
     color: var(--accent-color);
+}
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .episodes,
+    .about,
+    .comments,
+    .footer {
+        padding: 50px 0;
+    }
+    .artist {
+        padding-bottom: 50px;
+    }
+    
+    .subscribe {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .episodes,
+    .about,
+    .comments,
+    .footer {
+        padding: 30px 0;
+    }
+    .artist {
+        padding-bottom: 30px;
+    }
+    
+    .subscribe {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    
 }

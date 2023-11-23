@@ -11,10 +11,10 @@ function App() {
         <div className='container'>
             <Header/>
             <Hero />
-            {/* <Episodes/> */}
-            {/* <About/> */}
-            {/* <Comments/> */}
-            {/* <Footer/> */}
+            <Episodes/>
+            <About/>
+            <Comments/>
+            <Footer/>
         </div>
     )
 }

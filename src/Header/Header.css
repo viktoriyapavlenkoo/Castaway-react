@@ -69,10 +69,21 @@
 /* media */
 
 
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    
+}
+
 
 
 
 @media screen and (max-width: 768px) {
+    .header__container {
+        height: 110px;
+    }
+    
     .header__nav {
         display: none;
     }
@@ -110,6 +121,9 @@
     }
 }
 
+@media screen and (max-width: 590px) {
+    
+}
 @media screen and (max-width: 480px) {
     .header__container {
         justify-content: end;
@@ -120,4 +134,7 @@
     .nav__mobile .nav .menu .menu__item a {
         font-size: var(--main-text);
     }
+}
+@media screen and (max-width: 320px) {
+    
 }

@@ -20,6 +20,7 @@ function Footer() {
                         </li>)}
                     </ul>
                 </div>
+                <div className="footer__block-blocks">
                 <div className="footer__second-block">
                     <Nav/>
                 </div>
@@ -32,6 +33,7 @@ function Footer() {
                         <li className="add-menu__item"><a href="/">Powered by Webflow</a></li>
                         <li className="add-menu__item"><a href="/">Licenses</a></li>
                     </ul>
+                </div>
                 </div>
                 <div className="footer__fourth-block">
                     <Players/>
