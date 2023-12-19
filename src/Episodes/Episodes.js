@@ -9,11 +9,11 @@ function Episodes() {
     lastEpisodes.sort((a, b) => b.id - a.id)
 
     return (
-        <section className="episodes">
+        <section className="episodes" id='episodes'>
             <div className="episodes__container">
                 <div className="episodes__header">
                     <h2 className="section__title episodes__title">Latest episodes</h2>
-                    <button className='btn episodes__btn'>View all episodes</button>
+                    <a href='/allEpisodes' className='btn episodes__btn'>View all episodes</a>
                 </div>
                 <ul className="episodes__list">
                     {lastEpisodes.map((item, index) => <li className="episodes__item" key={index}><Episode data={item} /></li>)}

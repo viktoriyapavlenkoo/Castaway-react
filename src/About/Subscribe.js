@@ -2,7 +2,7 @@ import './Subscribe.css'
 
 function Subscribe() {
     return (
-        <div className="subscribe">
+        <div className="subscribe" id='contact'>
             <div className="subscribe__container">
                <div className="subscribe__text-block">
                     <p className="subtitle subscribe__subtitle">Email Newsletter</p>

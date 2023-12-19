@@ -1,19 +1,20 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css'
-import About from './About/About';
-import Comments from './Comments/Comments';
-import Episodes from './Episodes/Episodes';
 import Header from './Header/Header';
-import Hero from './Hero/Hero';
 import Footer from './Footer/Footer';
+import AllEpisodes from './Episodes/AllEpisodes';
+import MainPage from './MainPage/MainPage';
 
 function App() {
     return (
         <div className='container'>
             <Header/>
-            <Hero />
-            <Episodes/>
-            <About/>
-            <Comments/>
+            <Router>
+                <Routes>
+                    <Route path='/' element={<MainPage/>}/>
+                    <Route path='/allEpisodes' element={<AllEpisodes/>}/>
+                </Routes>
+            </Router>
             <Footer/>
         </div>
     )
