@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Spotify",
+        "href": "https://www.spotify.com/",
+        "image": "../resources/images/players/spotify-icon.svg"
+    },
+    {
+        "name": "Apple Music",
+        "href": "https://music.apple.com/",
+        "image": "../resources/images/players/apple-music-icon.svg"
+    },
+    {
+        "name": "SoundCloud",
+        "href": "https://soundcloud.com/",
+        "image": "../resources/images/players/soundcloud-icon.svg"
+    },
+    {
+        "name": "YouTube Music",
+        "href": "https://music.youtube.com/",
+        "image": "../resources/images/players/youtube-music-icon.svg"
+    },
+    {
+        "name": "Deezer",
+        "href": "https://www.deezer.com/",
+        "image": "../resources/images/players/deezer-icon.svg"
+    }
+]
