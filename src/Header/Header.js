@@ -10,7 +10,6 @@ function Header() {
         burgerRef.current.classList.toggle('active');
         headerNavRef.current.classList.toggle('active')
     }
-
   
 
     return (
