@@ -16,7 +16,7 @@ function Header() {
         <header className="header">
             <div className="header__container">
                 <a href="/" className="header__logo">
-                    <img src="../resources/images/logo-img.svg" alt="Logo" />
+                    <img src="resources/images/logo-img.svg" alt="Logo" />
                 </a>
                 <div className="header__nav" ref={headerNavRef}>
                     <Nav/>
