@@ -1,0 +1,145 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+.header__nav{
+    max-width: 400px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.header__nav .nav .menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.header__nav .nav .menu .menu__item a {
+    margin: 0 15px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+/* media */
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header__container {
+        height: 110px;
+    }
+    
+    /* .header__nav {
+        display: none;
+    } */
+    .burger {
+        display: block;
+        z-index: 3;
+    }
+
+    .burger {
+        position: relative;
+        width: 40px;
+        height: 30px;
+    }
+
+    .burger span {
+        position: absolute;
+        top: 14px;
+        width: 100%;
+        height: 3px;
+        background-color: var(--main-color-text);
+    }
+    .burger::before,
+    .burger::after {
+        position: absolute;
+        content: "";
+        background-color: var(--main-color-text);
+        width: 40px;
+        height: 3px;
+        left: 0;
+    }
+
+    .burger::after {
+        bottom: 0;
+    }
+
+    .burger.active span {
+        transform: scale(0);
+    }
+    .burger.active::before {
+        transform: rotate(45deg);
+        top: 40%;
+    }
+
+    .burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 50%;
+    }
+    .header__nav {
+        background-color: var(--main-background-color);
+        position: fixed;
+        top: -100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        max-width: 100vw;
+        margin: 0;
+        width: 100%;
+        height: 100%;    
+    }
+    .header__nav.active {
+        top: 0;
+    }
+    .header__nav .nav .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        justify-content: space-around;
+        
+    }
+
+    .header__nav .nav .menu .menu__item a {
+        font-size: var(--section-title-text);
+    }
+}
+
+@media screen and (max-width: 590px) {
+    
+}
+@media screen and (max-width: 480px) {
+    .header__container {
+        justify-content: end;
+    }
+    .header__logo {
+        display: none;
+    }
+    .nav__mobile .nav .menu .menu__item a {
+        font-size: var(--main-text);
+    }
+}
+@media screen and (max-width: 320px) {
+    
+}

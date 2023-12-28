@@ -1,0 +1,30 @@
+.comment__text {
+    font-size: var(--middle-text);
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.comment__name {
+    opacity: 0.7;
+}
+
+/* media */
+
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 590px) {
+    
+}
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (max-width: 320px) {
+    
+}
