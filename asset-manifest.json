@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Castaway-react/static/css/main.cfd5db21.css",
+    "main.js": "/Castaway-react/static/js/main.32335ff9.js",
+    "static/js/787.411c5e41.chunk.js": "/Castaway-react/static/js/787.411c5e41.chunk.js",
+    "static/media/lines.svg": "/Castaway-react/static/media/lines.9f0ee6db26e48828b3e1.svg",
+    "static/media/lines-2.svg": "/Castaway-react/static/media/lines-2.c0ffc6431e83fd92bbd4.svg",
+    "index.html": "/Castaway-react/index.html",
+    "main.cfd5db21.css.map": "/Castaway-react/static/css/main.cfd5db21.css.map",
+    "main.32335ff9.js.map": "/Castaway-react/static/js/main.32335ff9.js.map",
+    "787.411c5e41.chunk.js.map": "/Castaway-react/static/js/787.411c5e41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfd5db21.css",
+    "static/js/main.32335ff9.js"
+  ]
+}
