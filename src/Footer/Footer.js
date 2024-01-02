@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer__container">
                 <div className="footer__first-block">
                     <a href="/">
-                        <img src="resources/images/logo-img.svg" alt="Logo" />
+                        <img src="../resources/images/logo-img.svg" alt="Logo" />
                     </a>
                     <ul className="socials__list">
                         {socialsData.map((item, index) => 
