@@ -1,15 +1,26 @@
 .artist__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .artist__container div {
-    flex: 0 1 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
 }
 
 .artist__text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-right: 40px;
 }
 
@@ -18,9 +29,15 @@
     height: 112px;
     background-color: var(--accent-color);
     border-radius: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .artist__btn img {
@@ -36,22 +53,18 @@
     margin-top: 28px;
 }
 
-.artist__img-block {
-
-}
-
 .artist__img-block img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    object-position: center;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
 }
 
 /* media */
 
-@media screen and (max-width: 1200px) {
-    
-}
+
 @media screen and (max-width: 992px) {
     .artist__btn {
         width: 90px;
@@ -61,14 +74,20 @@
 }
 @media screen and (max-width: 768px) {
     .artist__container {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .artist__text-block {
-        flex: 0 1 60%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 60%;
+                flex: 0 1 60%;
     }
     
     .artist__img-block {
-        flex: 0 1 40%; 
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 40%;
+                flex: 0 1 40%; 
     }
     .artist__btn {
         width: 60px;
@@ -81,7 +100,10 @@
 }
 @media screen and (max-width: 590px) {
     .artist__container {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .artist__text-block {
         margin-bottom: 40px;
@@ -95,8 +117,5 @@
     .artist__img-block img {
         width: 100%;
     }
-    
-}
-@media screen and (max-width: 320px) {
     
 }

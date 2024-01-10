@@ -1,6 +1,5 @@
 import Artist from "./Artist";
 import Subscribe from "./Subscribe";
-import './About.css'
 
 function About() {
     return (
